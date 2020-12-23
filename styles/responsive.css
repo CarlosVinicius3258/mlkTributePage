@@ -1,0 +1,17 @@
+@media (max-width :600px) {
+    header{
+        background-image: url("../assets/header-img-600.png");
+    }
+}
+
+@media (max-width :500px) {
+    header{
+        background-image: url("../assets/header-img-500.png");
+    }
+}
+
+@media (max-width :400px) {
+    header{
+        background-image: url("../assets/header-img-400.png");
+    }
+}
