@@ -1,6 +1,7 @@
 html{
     padding: 0;
     margin: 0;
+    line-height: 1.4em;;
 }
 h2{
     text-align: center;
@@ -43,7 +44,37 @@ header{
     height: 800px;
     text-align: center;
 }
-
+article{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: gray;
+}
 .text-block{
-    margin: 50px;
+    background-color: #ddd;
+    border-radius: 8px;
+    text-align: center;
+    align-items: center;
+    margin: 10px;
+    margin-top: 30px;
+    width: 400px;
+    height: 400px;
+    text-align: justify;
+    padding-top: 0;
+}
+.text-block .title{
+    background-color: rgb(209, 204, 204);
+    width: 100%;
+    margin: 0;
+    height: 40px;
+    margin-top: 0;
+    border-top: 8px
+}
+.text-block p{
+    padding: 10px;
+}
+
+.text-block h2{
+    margin: 0;
+    padding: 0.3em;
 }
