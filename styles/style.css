@@ -1,9 +1,14 @@
 html{
+    font-family: 'Bebas Neue', cursive;
+
     padding: 0;
     margin: 0;
     line-height: 1.4em;;
     width: 100%;
     height: 100%;
+}
+h1{
+    margin: 2em;
 }
 h2{
     text-align: center;
@@ -22,9 +27,13 @@ h2{
     width: auto;
     border-bottom: 1px solid #ccc;
 }
+.logo{
+    margin-left: 40px;
+}
 .menu{
     display: flex;
     justify-content:space-around;
+    margin-right: 40px;
 }
 .menu ul{
    list-style: none;
@@ -37,6 +46,9 @@ h2{
 .menu ul li a{
     margin: 5px;
     padding: 5px;
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
 }
 
 header{
@@ -51,7 +63,7 @@ article{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    background-color: gray;
+    background-color: rgba(128, 128, 128, 0.452);
 }
 .text-block{
     background-color: #ddd;
@@ -66,7 +78,7 @@ article{
     padding-top: 0;
 }
 .text-block .title{
-    background-color: rgb(209, 204, 204);
+    background-color: rgb(141, 141, 141);
     width: 100%;
     margin: 0;
     height: 40px;
@@ -79,5 +91,24 @@ article{
 
 .text-block h2{
     margin: 0;
-    padding: 0.3em;
+    padding: 0.4em;
+}
+
+#galeria{
+    margin-top: 50px;
+}
+#imagens{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.foto{
+    border-radius: 8px;
+}
+.foto img{
+    width: 300px;
+    height: 300px;
+    border-radius: 8px;
+    margin-bottom: 20px;
 }
