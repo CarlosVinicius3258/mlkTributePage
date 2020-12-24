@@ -3,13 +3,17 @@ html{
 
     padding: 0;
     margin: 0;
-    line-height: 1.2em;;
+    line-height: 1.3em;;
     width: 100%;
     height: 100%;
 }
 html a{
     text-decoration: none;
     color: rgb(80, 80, 80);
+}
+
+html a:hover{
+color: black;
 }
 h1,h2,h3{
     margin: 2em;
@@ -74,7 +78,7 @@ header{
 }
 article{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     background-color: rgba(128, 128, 128, 0.452);
 }
@@ -106,7 +110,13 @@ article{
     margin: 0;
     padding: 0.4em;
 }
-
+#premios ul li{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-right: 40px;
+    margin-bottom: 20px;
+}
 #galeria{
     margin-top: 50px;
 }
@@ -115,6 +125,7 @@ article{
     justify-content: space-around;
     flex-wrap: wrap;
 }
+
 
 .foto{
     border-radius: 8px;
