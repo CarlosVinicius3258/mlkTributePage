@@ -4,14 +4,52 @@
     }
 }
 
-@media (max-width :500px) {
+@media (max-width :450px) {
     header{
         background-image: url("../assets/header-img-500.png");
     }
 }
+@media (max-width :450px) {
+    .menu ul li a{
+        font-size: 1.2em;
+        margin: 3px;
+        padding: 3px;
+    }
+    .menu{
+        margin-right: 20px;
+        
+    }
+    .logo{
+        margin-left: 20px;
+    }
+    .logo img{
+        width: 70px;
+    }
+    
+    
+}
+@media (max-width :330px) {
+    .menu ul li a{
+        font-size: 1em;
+        margin: 3px;
+        padding: 3px;
+    }
+    .menu{
+        margin-right: 20px;
+        
+    }
+    .logo{
+        margin-left: 20px;
+    }
+    .logo img{
+        width: 70px;
+    }
+    
+    
+}
 
 @media (max-width :400px) {
     header{
-        background-image: url("../assets/header-img-400.png");
+        
     }
 }
